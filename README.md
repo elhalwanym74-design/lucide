@@ -1,4 +1,4 @@
-<# Lucide Custom Fork
+# Lucide Custom Fork
 
 This repository is a personal fork of the official Lucide Icons project.
 
@@ -33,6 +33,18 @@ This fork is intended for:
 
 This project inherits the ISC license from the upstream project.
 See [LICENSE](./LICENSE) for details.
+
+## Contributing
+
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+
+## Security
+
+Please see [SECURITY.md](./SECURITY.md) for security policy and vulnerability reporting.
+
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for project history and updates.
 
 ## Attribution
 
