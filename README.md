@@ -37,3 +37,15 @@ pnpm install
 pnpm build
 
 
+# Install dependencies
+pnpm install
+
+# Build the project
+pnpm build
+
+# Run tests
+pnpm test
+
+# Lint
+pnpm lint
+
