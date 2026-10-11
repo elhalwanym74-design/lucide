@@ -42,3 +42,21 @@ cd lucide
 pnpm install
 pnpm build
 
+# Install dependencies
+pnpm install
+
+# Build all packages
+pnpm build
+
+# Run tests
+pnpm test
+
+# Run linting
+pnpm lint
+
+# Format code
+pnpm format
+
+
+
+
