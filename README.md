@@ -1,41 +1,61 @@
-6) ملف CONTRIBUTING.md:
-```md
-# Contributing
+# Lucide Custom Fork
 
-Thanks for your interest in contributing to this repository.
+This repository is a personal fork of the official Lucide Icons project.
 
-## Project context
+## Project status
 
-This repository is a personal fork of the official Lucide Icons project. It may contain personal experiments, custom modifications, or project-specific improvements.
+This project is based on:
+- https://github.com/lucide-icons/lucide
 
-Please keep changes aligned with the purpose of the fork and clearly document any divergence from the upstream project.
+It is not the official Lucide project and is not affiliated with the official Lucide maintainers.
 
-## Before contributing
+## Purpose
 
-- Review the current issues and repository state
-- Keep changes focused and easy to review
-- Do not present this fork as the official Lucide project
-- Respect upstream attribution and the project license
+This fork is intended for:
+- personal learning
+- experimentation
+- custom icon development
+- internal or project-specific customization
 
-## Coding standards
+## Official project
 
-- Keep code readable and consistent with the surrounding project
-- Write clear commit messages
-- Document behavior changes when relevant
-- Avoid unnecessary scope expansion
+- Official repository: https://github.com/lucide-icons/lucide
+- Official website: https://lucide.dev
+- Community: https://discord.gg/EH6nSts
+- License: ISC
 
-## Pull request process
+## Maintainer
 
-1. Create a feature branch
-2. Make the change in a focused and reviewable way
-3. Run any relevant validation or tests
-4. Submit a PR with a clear summary
-5. Include context if the change is experimental, custom, or upstream-related
+- GitHub: @elhalwanym74-design
+- Repository: https://github.com/elhalwanym74-design/lucide
+
+## License
+
+This project inherits the ISC license from the upstream project.
+See [LICENSE](./LICENSE) for details.
+
+## Contributing
+
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+
+## Security
+
+Please see [SECURITY.md](./SECURITY.md) for security policy and vulnerability reporting.
+
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for project history and updates.
 
 ## Attribution
 
-Contributions should remain aligned with the original Lucide ecosystem and respect the ISC license terms.
+Built on top of Lucide Icons.
+Original project: https://github.com/lucide-icons/lucide
 
-## Questions
+## Getting started
 
-If unsure whether a change is appropriate, open an issue before starting work.
+```bash
+git clone https://github.com/elhalwanym74-design/lucide.git
+cd lucide
+pnpm install
+pnpm build
+
