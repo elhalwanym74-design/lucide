@@ -100,3 +100,33 @@ Reports will be handled as quickly as possible. The goal is to acknowledge, asse
 Because this is a fork, some upstream fixes may not be applied immediately. For the latest secure upstream updates, consult:
 
 https://github.com/lucide-icons/lucide
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+
+### Added
+- Professional fork documentation
+- Clear attribution and fork status clarification
+- Security policy
+- Contribution guidelines
+- Repository hygiene and professional structure
+
+### Changed
+- README rewritten to clarify this is a personal fork
+- Documentation improved to distinguish from official Lucide
+
+## [0.1.0] - 2026-10-11
+
+### Added
+- Initial fork setup
+- Professional repository documentation
+- Fork status clarification
+- Attribution guidelines
+
+### Notes
+- This project is a personal fork of the official Lucide Icons project
+- Not affiliated with official Lucide maintainers
+
