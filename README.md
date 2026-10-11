@@ -58,5 +58,48 @@ pnpm lint
 pnpm format
 
 
+SECURITY.md
+```md
+# Security Policy
+
+## Supported versions
+
+This repository is a personal fork of the upstream Lucide project. It may not receive the same maintenance guarantees as the official project.
+
+For production-critical environments, it is recommended to also review the official upstream repository.
+
+## Reporting a vulnerability
+
+Please report vulnerabilities responsibly and privately.
+
+Use one of the following options:
+
+- open a private GitHub issue if supported by the repository
+- contact the maintainer directly through GitHub
+- use any private communication channel made available by the maintainer
+
+Please do not disclose security issues publicly until a fix is ready or an agreed resolution is in place.
+
+## Reporting guidance
+
+When reporting, include:
+
+- affected component or file
+- reproduction steps
+- impact assessment
+- suggested fix, if available
+- relevant environment details
+
+## Response expectations
+
+Reports will be handled as quickly as possible. The goal is to acknowledge, assess, and remediate issues responsibly.
+
+## Important note
+
+Because this is a fork, some upstream fixes may not be applied immediately. For the latest secure upstream updates, consult:
+
+https://github.com/lucide-icons/lucide
+
+
 
 
