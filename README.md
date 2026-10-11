@@ -36,3 +36,4 @@ cd lucide
 pnpm install
 pnpm build
 
+
