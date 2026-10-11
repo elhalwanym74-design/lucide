@@ -1,147 +1,48 @@
-<p align="center">
-  <a href="https://github.com/lucide-icons/lucide#gh-light-mode-only">
-    <img src="https://lucide.dev/lucide-logo-repo.svg#gh-light-mode-only" alt="Lucide - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons." width="480">
-  </a>
-  <a href="https://github.com/lucide-icons/lucide#gh-dark-mode-only">
-    <img src="https://lucide.dev/lucide-logo-repo-dark.svg#gh-dark-mode-only" alt="Lucide - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons." width="480">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/lucide-icons/lucide/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-ISC-green" alt="license"></a>
-  <a href="https://www.figma.com/community/plugin/939567362549682242/Lucide-Icons"><img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" alt="figma installs"></a>
-  <a href="https://github.com/lucide-icons/lucide/actions/workflows/ci.yml"><img src="https://github.com/lucide-icons/lucide/actions/workflows/ci.yml/badge.svg" alt="build status"></a>
-  <a href="https://discord.gg/EH6nSts"><img src="https://img.shields.io/discord/723074157486800936?label=chat&logo=discord&logoColor=%23ffffff&colorB=%237289DA" alt="discord chat"></a>
-</p>
-<p align="center">
-  <a href="https://lucide.dev/icons/">Icons</a>
-  ·
-  <a href="https://lucide.dev/guide/">Guide</a>
-  ·
-  <a href="https://lucide.dev/packages">Packages</a>
-  ·
-  <a href="https://lucide.dev/license">License</a>
-  ·
-  <a href="https://lucide.dev/showcase">Showcase</a>
-</p>
+<# Lucide Custom Fork
 
-# Lucide
+This repository is a personal fork of the official Lucide Icons project.
 
-Lucide is an open-source icon library that provides 1600+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. The library aims to make it easier for designers and developers to incorporate icons into their projects by providing several official [packages](https://lucide.dev/packages) to make it easier to use these icons in your project.
+## Project status
 
-## Packages
+This project is based on:
+- https://github.com/lucide-icons/lucide
 
-| Logo | Package | Version | Downloads | Links |
-| ---- | ------- | ------- | --------- | ----- |
-| <img src="https://lucide.dev/framework-logos/js.svg" alt="JS logo" width="48"> | **`lucide`** | [![npm](https://img.shields.io/npm/v/lucide)](https://www.npmjs.com/package/lucide) | ![NPM Downloads](https://img.shields.io/npm/dw/lucide) | [Docs](https://lucide.dev/guide/lucide) · [Source](./packages/lucide) |
-| <img src="https://lucide.dev/framework-logos/react.svg" alt="React logo" width="48"> | **`lucide-react`** | [![npm](https://img.shields.io/npm/v/lucide-react)](https://www.npmjs.com/package/lucide-react) | ![NPM Downloads](https://img.shields.io/npm/dw/lucide-react) | [Docs](https://lucide.dev/guide/react) · [Source](./packages/lucide-react) |
-| <img src="https://lucide.dev/framework-logos/vue.svg" alt="Vue logo" width="48"> | **`@lucide/vue`** | [![npm](https://img.shields.io/npm/v/@lucide/vue)](https://www.npmjs.com/package/@lucide/vue) | ![NPM Downloads](https://img.shields.io/npm/dw/@lucide/vue) | [Docs](https://lucide.dev/guide/vue) · [Source](./packages/vue) |
-| <img src="https://lucide.dev/framework-logos/svelte.svg" alt="Svelte logo" width="48"> | **`@lucide/svelte`** | [![npm](https://img.shields.io/npm/v/@lucide/svelte)](https://www.npmjs.com/package/@lucide/svelte) | ![NPM Downloads](https://img.shields.io/npm/dw/@lucide/svelte) | [Docs](https://lucide.dev/guide/svelte) · [Source](./packages/svelte) |
-| <img src="https://lucide.dev/framework-logos/solid.svg" alt="Solid logo" width="48"> | **`lucide-solid`** | [![npm](https://img.shields.io/npm/v/lucide-solid)](https://www.npmjs.com/package/lucide-solid) | ![NPM Downloads](https://img.shields.io/npm/dw/lucide-solid) | [Docs](https://lucide.dev/guide/solid) · [Source](./packages/lucide-solid) |
-| <img src="https://lucide.dev/framework-logos/preact.svg" alt="Preact logo" width="48"> | **`lucide-preact`** | [![npm](https://img.shields.io/npm/v/lucide-preact)](https://www.npmjs.com/package/lucide-preact) | ![NPM Downloads](https://img.shields.io/npm/dw/lucide-preact) | [Docs](https://lucide.dev/guide/preact) · [Source](./packages/lucide-preact) |
-| <img src="https://lucide.dev/framework-logos/react-native.svg" alt="React Native logo" width="48"> | **`lucide-react-native`** | [![npm](https://img.shields.io/npm/v/lucide-react-native)](https://www.npmjs.com/package/lucide-react-native) | ![NPM Downloads](https://img.shields.io/npm/dw/lucide-react-native) | [Docs](https://lucide.dev/guide/react-native) · [Source](./packages/lucide-react-native) |
-| <img src="https://lucide.dev/framework-logos/angular.svg" alt="Angular logo" width="48"> | **`@lucide/angular`** | [![npm](https://img.shields.io/npm/v/@lucide/angular)](https://www.npmjs.com/package/@lucide/angular) | ![NPM Downloads](https://img.shields.io/npm/dw/@lucide/angular) | [Docs](https://lucide.dev/guide/angular) · [Source](./packages/angular) |
-| <img src="https://lucide.dev/framework-logos/astro.svg" alt="Astro logo" width="48"> | **`@lucide/astro`** | [![npm](https://img.shields.io/npm/v/@lucide/astro)](https://www.npmjs.com/package/@lucide/astro) | ![NPM Downloads](https://img.shields.io/npm/dw/@lucide/astro) | [Docs](https://lucide.dev/guide/astro) · [Source](./packages/astro) |
-| <img src="https://lucide.dev/framework-logos/svg.svg" alt="SVG logo" width="48"> | **`lucide-static`** | [![npm](https://img.shields.io/npm/v/lucide-static)](https://www.npmjs.com/package/lucide-static) | ![NPM Downloads](https://img.shields.io/npm/dw/lucide-static) | [Docs](https://lucide.dev/guide/static) · [Source](./packages/lucide-static) |
+It is not the official Lucide project and is not affiliated with the official Lucide maintainers.
 
-### Figma
+## Purpose
 
-The Lucide Figma plugin.
+This fork is intended for:
+- personal learning
+- experimentation
+- custom icon development
+- internal or project-specific customization
 
-Visit [Figma community page](https://www.figma.com/community/plugin/939567362549682242/Lucide-Icons) to install the plugin.
+## Official project
 
-<img width="420" src="https://www.figma.com/community/plugin/939567362549682242/thumbnail" alt="Figma Lucide Cover">
+- Official repository: https://github.com/lucide-icons/lucide
+- Official website: https://lucide.dev
+- Community: https://discord.gg/EH6nSts
+- License: ISC
 
-## Contributing
+## Maintainer
 
-For more info on how to contribute please see the [contribution guidelines](https://github.com/lucide-icons/lucide/blob/main/CONTRIBUTING.md).
-
-Caught a mistake or want to contribute to the documentation? [Edit this page on Github](https://github.com/lucide-icons/lucide/blob/main/README.md)
-
-## About brand logos
-
-Lucide **does not accept** brand logos, and we do not plan to add them in the future. This is due to a combination of **legal restrictions**, **design consistency concerns**, and **practical maintenance reasons**.
-
-[Click here to read our official statement about brand logos in Lucide.](./BRAND_LOGOS_STATEMENT.md)
-
-## Community
-
-Join the community on our [Discord](https://discord.gg/EH6nSts) server!
+- GitHub: @elhalwanym74-design
+- Repository: https://github.com/elhalwanym74-design/lucide
 
 ## License
 
-Lucide is totally free for commercial use and personal use, this software is licensed under the [ISC License](https://github.com/lucide-icons/lucide/blob/main/LICENSE).
-
-## Credits
-
-Thank you to all the people who contributed to Lucide!
-
-<a href="https://github.com/lucide-icons/lucide/graphs/contributors">
-
-<img src="https://opencollective.com/lucide-icons/contributors.svg?width=800" />
-</a>
-
-[//]: <> (Sponsors)
-
-## Sponsors
-
-<a href="https://vercel.com?utm_source=lucide&utm_campaign=oss">
-  <img src="docs/public/vercel.svg" alt="Powered by Vercel" width="200" />
-</a>
-
-<a href="https://www.digitalocean.com/?refcode=b0877a2caebd&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="docs/public/digitalocean.svg" width="200" alt="DigitalOcean Referral Badge" /></a>
-
-### Hero backers 🦸
-
-<a href="https://zephyr-cloud.io/"><img src="docs/public/sponsors/zephyr-cloud.svg" width="180" alt="Zephyr Cloud – From idea to prod: fast micro-frontend delivery!" /></a>
-
-### Awesome backers 🍺
-
-<a href="https://github.com/pdfme/pdfme"><img src="docs/public/sponsors/pdfme.svg" width="180" alt="pdfme – Open-source PDF generation library built with TypeScript and React." /></a>
-<a href="https://www.paxhistoria.co/"><img src="docs/public/sponsors/paxhistoria.svg?" width="180" alt="Pax Historia – An alternate history sandbox game" /></a>
-
-### Backers ☕
-
-<a href="https://www.fina.money/"><img src="docs/public/sponsors/fina-money.png" width="180" alt="Fina Money – Modular Finance Tracker" /></a>
-
-### Other contributors 💸
-
-You can find all our past and non-recurring financial contributors at [our Open Collective page](https://opencollective.com/lucide-icons).
-# Contributing
-
-Thanks for your interest in contributing to this repository.
-
-## Project context
-
-This repository is a personal fork of the official Lucide Icons project. It may contain personal experiments, custom modifications, or project-specific improvements.
-
-Please keep changes aligned with the purpose of the fork and clearly document any divergence from the upstream project.
-
-## Before contributing
-
-- Review the current issues and repository state
-- Keep changes focused and easy to review
-- Do not present this fork as the official Lucide project
-- Respect upstream attribution and the project license
-
-## Coding standards
-
-- Keep code readable and consistent with the surrounding project
-- Write clear commit messages
-- Document behavior changes when relevant
-- Avoid unnecessary scope expansion
-
-## Pull request process
-
-1. Create a feature branch
-2. Make the change in a focused and reviewable way
-3. Run any relevant validation or tests
-4. Submit a PR with a clear summary
-5. Include context if the change is experimental, custom, or upstream-related
+This project inherits the ISC license from the upstream project.
+See [LICENSE](./LICENSE) for details.
 
 ## Attribution
 
-Contributions should remain aligned with the original Lucide ecosystem and respect the ISC license terms.
+Built on top of Lucide Icons.
+Original project: https://github.com/lucide-icons/lucide
 
-## Questions
+## Getting started
 
-If unsure whether a change is appropriate, open an issue before starting work.
+```bash
+git clone https://github.com/elhalwanym74-design/lucide.git
+cd lucide
+pnpm install
+pnpm build
